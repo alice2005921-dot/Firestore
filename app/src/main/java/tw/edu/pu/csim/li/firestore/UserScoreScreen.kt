@@ -20,7 +20,7 @@ fun UserScoreScreen( userScoreViewModel: UserScoreViewModel = viewModel()
     ) {
         Button(onClick = {
             // 在按鈕點擊時，直接呼叫 ViewModel 的函式
-            var userScore = UserScoreModel("子青", 39)
+            var userScore = UserScoreModel("羿慧", 39)
             userScoreViewModel.addUser(userScore)
         }) {
             Text("新增資料")
